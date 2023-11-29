@@ -1,0 +1,99 @@
+:root{
+    --light-color: #bef7de;
+    --dark-color: #499167;
+    --font-color: #272b1e;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: var(--dark-color);
+
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover, 
+.nav-link.active:hover{
+    color: var(--light-color);
+}
+
+.navbar-toggler{
+    background-color: var(--light-color);
+}
+
+.section-title{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#carousel{
+    background-color: var(--light-color);
+}
+
+#sobre-a-farmacia {
+    background-color: var(--dark-color);
+}
+
+#sobre-a-farmacia h2, #sobre-a-farmacia h3{
+    color: var(--light-color);
+}
+
+#produtos{
+    background-color: var(--light-color);
+}
+
+#fale-conosco{
+    background-color: var(--dark-color);
+    color: var(--light-color)
+}
+
+.nav-produtos button{
+    background-color: var(--dark-color);
+    border: 1px solid var(--dark-color);
+    color: var(--font-color);
+}
+
+.nav-produtos button,
+.nav-produtos .nav-link.active{
+    background-color: var(--dark-color);
+    border: 1px solid var(--light-color);
+    color: var(--font-color);
+}
+
+#fale-conosco button{
+    background-color: var(--dark-color);
+    border: 1px solid var(--light-color);
+    color: var(--light-color);
+}
+
+
+.nav-link:hover{
+    color: var(--font-color);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
+
+.icons{
+    color:var(--light-color);
+}
